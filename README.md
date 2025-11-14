@@ -124,11 +124,18 @@ A full-stack web application for tracking personal collections such as board gam
 - [x] Polish auth pages (login/signup)
 
 ### Phase 2: Core Functionality (In Progress)
-- [ ] Implement collection CRUD operations
-- [ ] Create forms for adding/editing collections
-- [ ] Implement item CRUD operations
-- [ ] Build item entry forms with manual data input
-- [ ] Create basic list view with search/filter
+- [x] Implement collection CRUD operations (create, read)
+- [x] Create forms for adding/editing collections
+- [x] Build collections list page with grid view
+- [x] Create collection detail page with item display
+- [x] Implement item CRUD server actions
+- [x] Build item entry forms with category-specific fields
+  - [x] Board games (publisher, min/max players, game type, play time, min age, year, price paid)
+- [x] Display items in collection with card layout
+- [ ] Build item detail/edit page
+- [ ] Implement delete functionality for items and collections
+- [ ] Add edit functionality for collections and items
+- [ ] Create basic search/filter within collections
 - [ ] Set up Supabase Storage for image uploads
 
 ### Phase 3: Enhanced UX
